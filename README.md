@@ -11,3 +11,5 @@ I am collecting the projects I made while learning. You can find the source link
 ![](https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/login-signup-gif.gif)
 
 
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/login-signup-gif.gif" width="100" height="100">
+
