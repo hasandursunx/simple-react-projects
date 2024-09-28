@@ -6,7 +6,7 @@ I am collecting the projects I made while learning. You can find the source link
 ![](https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/earth.gif)
 
 
-[Login - Signup Form ]([https://www.youtube.com/watch?v=DgRrrOt0Vr8](https://www.youtube.com/watch?v=8QgQKRcAUvM&list=PPSV)  
+[Login - Signup Form ](https://www.youtube.com/watch?v=8QgQKRcAUvM&list=PPSV)  
 ![](https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/earth.gif)
 
 
