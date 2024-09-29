@@ -1,4 +1,6 @@
 import { Home } from "./Home"
+import 'bootstrap/dist/css/bootstrap.css';
+
 
 
 function App() {

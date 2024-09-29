@@ -2,10 +2,12 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 
 export const Home = () => {
+    const users = useSelector((state) => state.users)
+    console.log(users)
     return (
         <div className="container">
             <h2>CRUD App with JSON Server</h2>
-            <button className='btn btn-success my-3'></button>
+            <button className='btn btn-success my-3'>Create +</button>
             <table className="table">
                 <thead>
                     <tr>
@@ -16,7 +18,17 @@ export const Home = () => {
                     </tr>
                 </thead>
                 <tbody>
-
+                    {users.map((user, index) => (
+                        <tr key={index}>
+                            <td>{user.id}</td>
+                            <td>{user.name}</td>
+                            <td>{user.email}</td>
+                            <td>
+                                <button className='btn btn-sm btn-primary'>Edit</button>
+                                <button className='btn btn-sm btn-danger ms-2'>Delete</button>
+                            </td>
+                        </tr>
+                    ))}
                 </tbody>
             </table>
         </div>
