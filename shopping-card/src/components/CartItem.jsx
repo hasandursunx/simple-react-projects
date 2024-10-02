@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { products } from '../pages/products'
 import { useDispatch } from 'react-redux';
-import { changeQuentity } from '../stores/cart';
+import { changeQuantity } from '../stores/cart';
 
 const CartItem = (props) => {
 
@@ -14,16 +14,16 @@ const CartItem = (props) => {
         setDetail(findDetail)
     }, [productId])
 
-    const handleMinusQuentity = () => {
-        dispatch(changeQuentity({
+    const handleMinusQuantity = () => {
+        dispatch(changeQuantity({
             productId: productId,
             quantity: quantity - 1
         }));
     }
 
-    const handlePlusQuentity = () => {
+    const handlePlusQuantity = () => {
 
-        dispatch(changeQuentity({
+        dispatch(changeQuantity({
             productId: productId,
             quantity: quantity + 1
         }));
@@ -35,9 +35,9 @@ const CartItem = (props) => {
             <h3>{detail.name}</h3>
             <p>${detail.price * quantity}</p>
             <div className='w-20 flex justify-between gap-2'>
-                <button onClick={handleMinusQuentity} className='bg-gray-200 rounded-full w-6 h-6 text-cyan-600'> - </button>
+                <button onClick={handleMinusQuantity} className='bg-gray-200 rounded-full w-6 h-6 text-cyan-600'> - </button>
                 <span>{quantity}</span>
-                <button onClick={handlePlusQuentity} className='bg-gray-200 rounded-full w-6 h-6 text-cyan-600'> + </button>
+                <button onClick={handlePlusQuantity} className='bg-gray-200 rounded-full w-6 h-6 text-cyan-600'> + </button>
 
             </div>
         </div>
