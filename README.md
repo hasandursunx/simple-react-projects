@@ -25,4 +25,11 @@ I am collecting the projects I made while learning. You can find the source link
 
 
 
+<br/>
+<br/>
+
+[Shopping Cart ](https://www.youtube.com/watch?v=NJ1inoC1L1k&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/shopping-cart-gif.gif" height="300">
+
 
