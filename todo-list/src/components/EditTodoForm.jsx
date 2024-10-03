@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const EditForm = ({ editTodo, task }) => {
 
-    const [value, setValue] = useState("")
+    const [value, setValue] = useState(task.task)
 
 
     const handleSubmit = e => {
