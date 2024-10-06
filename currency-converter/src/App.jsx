@@ -1,6 +1,5 @@
 
 import { useState } from 'react'
-import './App.css'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
 import { InputBox } from './components/index.js'
 
@@ -12,11 +11,8 @@ function App() {
   const [to, setTo] = useState('try')
 
   const currencyInfo = useCurrencyInfo(from)
-  const options = Object.keys(currencyInfo)
 
-  const convert = () => {
-    setConvertedAmount(amount * currencyInfo[to])
-  }
+  const options = Object.keys(currencyInfo)
 
   const swap = () => {
     setFrom(to)
@@ -24,6 +20,12 @@ function App() {
     setConvertedAmount(amount)
     setAmount(convertedAmount)
   }
+
+  const convert = () => {
+    setConvertedAmount(amount * currencyInfo[to])
+  }
+
+
 
   return (
     <div className='w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat' style={{ backgroundImage: `url(https://images.pexels.com/photos/5746260/pexels-photo-5746260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }}>
@@ -36,12 +38,12 @@ function App() {
           }}>
             <div className='w-full mb-1'>
               <InputBox
-                label="from"
+                label="From"
                 amount={amount}
-                currencyOption={options}
-                onCurrencyChange={(currency) => setFrom(currency)}
+                currencyOptions={options}
+                onCurrencyChange={(currency) => setAmount(amount)}
+                selectedCurrency={from}
                 onAmountChange={(amount) => setAmount(amount)}
-                selectedCurrency='from'
               />
             </div>
             <div className='relative w-full h-0.5'>
@@ -50,9 +52,9 @@ function App() {
             </div>
             <div className='w-full mb-1'>
               <InputBox
-                label="to"
-                currencyOption={options}
+                label="To"
                 amount={convertedAmount}
+                currencyOptions={options}
                 onCurrencyChange={(currency) => setTo(currency)}
                 selectedCurrency={to}
                 amountDisabled
@@ -62,7 +64,7 @@ function App() {
               type='submit'
               className='w-full bg-blue-600 text-white px-4 py-3 '
 
-            >Convert</button>
+            >Convert {from.toUpperCase()} to {to.toUpperCase()}</button>
           </form>
         </div>
       </div>
