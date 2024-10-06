@@ -41,3 +41,10 @@ I am collecting the projects I made while learning. You can find the source link
 <img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/todo-app-gif.gif" height="300">
 
 
+<br/>
+<br/>
+
+[Currency Converter ](https://www.youtube.com/watch?v=0B6_GWvT2vs&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/currency-converter-gif.gif" height="300">
+
