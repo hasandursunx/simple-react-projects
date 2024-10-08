@@ -53,4 +53,10 @@ I am collecting the projects I made while learning. You can find the source link
 <br/>
 <img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/router-dom-sample-project-gif.gif" height="300">
 
+[Weather App](https://www.youtube.com/watch?v=AiV86oHTmsc)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/weather-app-gif.gif" height="300">
+
+
+
 
