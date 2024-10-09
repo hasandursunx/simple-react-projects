@@ -70,7 +70,7 @@ I am collecting the projects I made while learning. You can find the source link
 
 [Dark Mode (Context API)](https://www.youtube.com/watch?v=Kduq5HxJdj4&list=PPSV)  
 <br/>
-<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/dark-light-mode.gif" height="300">
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/dark-light-mode-gif.gif" height="300">
 
 
 
