@@ -49,13 +49,28 @@ I am collecting the projects I made while learning. You can find the source link
 <img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/currency-converter-gif.gif" height="300">
 
 
+<br/>
+<br/>
+
 [Sample Project (React Router Dom) ](https://www.youtube.com/watch?v=eLT2uiV7D8g&list=PPSV)  
 <br/>
 <img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/router-dom-sample-project-gif.gif" height="300">
 
+
+<br/>
+<br/>
+
 [Weather App](https://www.youtube.com/watch?v=AiV86oHTmsc)  
 <br/>
 <img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/weather-app-gif.gif" height="300">
+
+
+<br/>
+<br/>
+
+[Dark Mode (Context API)](https://www.youtube.com/watch?v=Kduq5HxJdj4&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/dark-light-mode.gif" height="300">
 
 
 
