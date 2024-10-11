@@ -2,6 +2,14 @@
 
 I am collecting the projects I made while learning. You can find the source links of all the projects above.
 
+<br/>
+<br/>
+
+[10 - Search Bar App ](https://www.youtube.com/watch?v=sEWuGc0ZdV4&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/search-bar-app-gif.gif" height="300">
+
+
 
 <br/>
 <br/>
