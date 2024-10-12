@@ -5,6 +5,14 @@ I am collecting the projects I made while learning. You can find the source link
 <br/>
 <br/>
 
+[11 - Habit Tracker](https://www.youtube.com/watch?v=-ovliZG617g&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/habit-tracker-gif.gif" height="300">
+
+
+<br/>
+<br/>
+
 [10 - Search Bar App ](https://www.youtube.com/watch?v=sEWuGc0ZdV4&list=PPSV)  
 <br/>
 <img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/search-bar-app-gif.gif" height="300">
