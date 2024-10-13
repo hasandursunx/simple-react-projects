@@ -2,6 +2,15 @@
 
 I am collecting the projects I made while learning. You can find the source links of all the projects above.
 
+
+<br/>
+<br/>
+
+[12 - Multi Language - i18next ](https://www.youtube.com/watch?v=dltHi9GWMIo&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/multi-language-i18next-gif.gif" height="300">
+
+
 <br/>
 <br/>
 
