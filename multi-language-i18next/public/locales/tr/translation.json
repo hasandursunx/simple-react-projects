@@ -1,0 +1,7 @@
+{
+    "greeting": "Merhaba, Hoşgeldin !",
+    "description": {
+        "line1": "Daha yeni <1>{{lang}}</1> öğrenmeye başladım",
+        "line2": "Bu macerama sende dahil olabilirsin."
+    }
+}
