@@ -1,0 +1,88 @@
+body {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.stepper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 1000px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-number {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  z-index: 2;
+  font-size: 1.2rem;
+
+}
+
+.step-name {
+  font-size: 1.1rem;
+}
+
+.active .step-number {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.complete .step-number {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.progress-bar {
+  position: absolute;
+  top: 28%;
+  left: 0;
+  height: 6px;
+  background-color: #ccc;
+}
+
+.progress {
+  height: 100%;
+  background-color: #28a745;
+  transition: 0.2s ease;
+}
+
+.redesign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.btn {
+  margin-top: 40px;
+  width: 130px;
+  height: 40px;
+  border: 1px solid rgb(183, 183, 183);
+  border-radius: 20px;
+  background-color: #ccc;
+  font-size: 16px;
+  color: rgb(63, 63, 63);
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
