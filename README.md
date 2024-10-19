@@ -5,6 +5,15 @@ I am collecting the projects I made while learning. You can find the source link
 <br/>
 <br/>
 
+[15 - Pagination ](https://www.youtube.com/watch?v=cBsB7hhOzQI&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/pagination-gif.gif" height="300">
+
+ 
+<br/>
+<br/>
+
+
 [14 - Stepper ](https://www.youtube.com/watch?v=utsHRBw2qH0&list=PPSV)  
 <br/>
 <img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/stepper-app-gif.gif" height="300">
