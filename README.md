@@ -5,9 +5,9 @@ I am collecting the projects I made while learning. You can find the source link
 <br/>
 <br/>
 
-[15 - Pagination ](https://www.youtube.com/watch?v=cBsB7hhOzQI&list=PPSV)  
+[15 - Tic Tac Toe ](https://www.youtube.com/watch?v=-uAhf92DVqA&list=PPSV)  
 <br/>
-<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/pagination-gif.gif" height="300">
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/tic-tac-toe-gif.gif" height="300">
 
  
 <br/>
