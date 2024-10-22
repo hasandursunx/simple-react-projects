@@ -5,6 +5,15 @@ I am collecting the projects I made while learning. You can find the source link
 <br/>
 <br/>
 
+[15 - Drag and Drop Notes ](https://www.youtube.com/watch?v=3U3UiBfcNqQ)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/drag-and-drop-notes-gif.gif" height="300">
+
+ 
+
+<br/>
+<br/>
+
 [15 - Tic Tac Toe ](https://www.youtube.com/watch?v=-uAhf92DVqA&list=PPSV)  
 <br/>
 <img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/tic-tac-toe-gif.gif" height="300">
