@@ -5,7 +5,15 @@ I am collecting the projects I made while learning. You can find the source link
 <br/>
 <br/>
 
-[15 - Drag and Drop Notes ](https://www.youtube.com/watch?v=3U3UiBfcNqQ)  
+[17 - Kanban Board ](https://www.youtube.com/watch?v=RG-3R6Pu_Ik&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/kanban-board-gif.gif" height="300">
+
+
+<br/>
+<br/>
+
+[16 - Drag and Drop Notes ](https://www.youtube.com/watch?v=3U3UiBfcNqQ)  
 <br/>
 <img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/drag-and-drop-notes-gif.gif" height="300">
 
