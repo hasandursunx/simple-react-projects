@@ -6,8 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-      "mainBackgroundColor": '#0D1117',
-      "columnBackgroundColor": '#161C22',
+      colors: {
+        "mainBackgroundColor": '#0D1117',
+        "columnBackgroundColor": '#161C22',
+      }
     },
   },
   plugins: [],
