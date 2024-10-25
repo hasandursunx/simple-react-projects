@@ -103,11 +103,11 @@ function KanbanBoard() {
 
         setColumns(columns => {
             const activeColumnIndex = columns.findIndex(
-                (col) => col.id === activeId
+                col => col.id === activeId
             )
 
             const overColumnIndex = columns.findIndex(
-                (col) => col.id === overId
+                col => col.id === overId
             );
             return arrayMove(columns, activeColumnIndex, overColumnIndex)
         })
