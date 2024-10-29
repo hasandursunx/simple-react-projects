@@ -1,4 +1,6 @@
 import React from 'react'
+import { moneyFormat } from "../helpers"
+
 
 function Product({ product, basket, setBasket, money, total }) {
 
@@ -28,34 +30,36 @@ function Product({ product, basket, setBasket, money, total }) {
 
     return (
         <>
-            <div className="p-10 bg-white border-white border-solid mb-5">
-                <img src={product.image} alt="" />
-                <h6>{product.title}</h6>
-                <div>$ {product.price}</div>
+            <div className="p-10 bg-white border-white border-solid">
+                <img className='w-[200px] h-[200px] mb-4' src={product.image} alt="" />
+                <h6 className='text-xl font-semibold'>{product.title}</h6>
+                <div className='text-xl text-green-500 mb-5 '>$ {product.price}</div>
                 <div className="actions">
                     <button
                         onClick={removeBasket}
                         disabled={basketItem === undefined}
                         className='
-                        bg-gray-300 
+                      bg-blue-400 
+                      text-gray-800
                         w-20 
                         py-1 
                         rounded-sm 
-                        hover:bg-gray-500 
+                        hover:bg-blue-500 
                         hover:text-white
                         disabled:opacity-50 
                         disabled:cursor-default
                         ' >Azalt</button>
-                    <span>{basketItem && basketItem.amount || 0}</span>
+                    <span className='mx-4'>{basketItem && basketItem.amount || 0}</span>
                     <button
                         onClick={addBasket}
                         disabled={total + product.price > money}
                         className='
-                            bg-gray-300 
+                            bg-blue-400 
+                            text-gray-800
                             w-20 
                             py-1 
                             rounded-sm 
-                            hover:bg-gray-500 
+                            hover:bg-blue-500 
                             hover:text-white
                             disabled:opacity-50 
                             disabled:cursor-default

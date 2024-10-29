@@ -2,25 +2,25 @@
     {
         "id": 1,
         "title": "Sakız",
-        "price": 0.5,
+        "price": 50,
         "image": "https://images.migrosone.com/sanalmarket/product/07120219/07120219-68be82-1650x1650.jpg"
     },
     {
         "id": 2,
         "title": "Kola",
-        "price": 6,
+        "price": 200,
         "image": "https://f-a101-l.mncdn.com/mnresize/480/480/livephotos/8/13002341DEFAULT/13002341DEFAULT_771.jpg"
     },
     {
         "id": 3,
-        "title": "Ayakkabı",
-        "price": 400,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2mPNi2Q-HNEnD-WBzNkNYo4B4JpmJ-FZCfw&s"
+        "title": "Şapka",
+        "price": 4500,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvohyK0Vs0LKFjtsWcimCB5ORoFingvZdvag&s"
     },
     {
         "id": 4,
         "title": "Araba",
-        "price": 40000,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq0x5ZgdKCov70CJbs_fPEOjPwaP7OF73foQ&s"
+        "price": 45000,
+        "image": "https://di-uploads-pod30.dealerinspire.com/bmwofschererville/uploads/2021/10/1-Tesla-Exterior-1000x1000-Oct2021.png"
     }
 ]

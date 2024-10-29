@@ -17,8 +17,9 @@ function Header({ money, total }) {
                 top-0
                 
             ">
+
                 {money - total > 0 &&
-                    (<div>Harcayacak ${moneyFormat(money - total)} paranız kaldı.</div>)
+                    (<div>Harcayacak ${moneyFormat(money - total)} paranız kaldı</div>)
                 }
                 {
                     money - total === 0 &&
