@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.dotSpan {
+  transform: translateY(calc(-100% - 20px)) translateX(-50%);
+}
+
+.dotNoteBox {
+  transform: translateY(40px) translateX(-50%);
+}
