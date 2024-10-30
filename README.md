@@ -5,6 +5,22 @@ I am collecting the projects I made while learning. You can find the source link
 <br/>
 <br/>
 
+[19 - Sticky Notes ](https://www.youtube.com/watch?v=vuUNJuIsQVU&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/sticky-notes-gif.gif" height="300">
+
+
+<br/>
+<br/>
+
+[18 - Spend Money App ](https://www.youtube.com/watch?v=vWL5_Lapr7w)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/spend-money-app.gif" height="300">
+
+
+<br/>
+<br/>
+
 [17 - Kanban Board ](https://www.youtube.com/watch?v=RG-3R6Pu_Ik&list=PPSV)  
 <br/>
 <img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/kanban-board-gif.gif" height="300">
