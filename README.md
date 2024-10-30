@@ -2,6 +2,17 @@
 
 I am collecting the projects I made while learning. You can find the source links of all the projects above.
 
+
+
+
+<br/>
+<br/>
+
+[20 - Memory Game ](https://www.youtube.com/watch?v=84o1kuPuYdU)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/memory-game-gif.gif" height="300">
+
+
 <br/>
 <br/>
 
@@ -15,7 +26,7 @@ I am collecting the projects I made while learning. You can find the source link
 
 [18 - Spend Money App ](https://www.youtube.com/watch?v=vWL5_Lapr7w)  
 <br/>
-<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/spend-money-app.gif" height="300">
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/spend-money-app-gif.gif" height="300">
 
 
 <br/>
