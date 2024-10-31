@@ -12,6 +12,10 @@
   transition: filter 300ms;
 }
 
+.logo-x {
+  width: 10px;
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
