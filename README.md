@@ -4,6 +4,13 @@ I am collecting the projects I made while learning. You can find the source link
 
 
 
+<br/>
+<br/>
+
+[21 - OTP Login ](https://www.youtube.com/watch?v=nQ-hy4PUta8&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/otp-login-gif.gif" height="300">
+
 
 <br/>
 <br/>
