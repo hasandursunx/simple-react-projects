@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import { GifState } from "../context/GifContext";
+import Gif from '../components/Gif'
+import FollowOn from '../components/FollowOn'
 
 
 const Category = () => {
@@ -25,6 +27,28 @@ const Category = () => {
                 <span className="text-gray-400 text-sm pt-2">
                     Don't tell it to me, GIF it to me!
                 </span>
+                <FollowOn />
+                <div className="divider" />
+            </div>
+            <div >
+                <h2 className="text-4xl pb-1 font-extrabold capitalize">
+                    {category.split('-').join(' & ')}
+                </h2>
+                <h2 className="text-lg text-gray-400 pb-3 font-bold hover:text-gray-50 cursor-pointer ">
+                    @{category}
+                </h2>
+                {
+
+                    results.length > 0 && (
+                        <div className="columns-2 md:columns-3 lg:columns-4 gap-2 xl:columns-5">
+                            {
+                                results.slice(1).map((gif) => (
+                                    <Gif gif={gif} key={gif.id} />
+                                ))
+                            }
+                        </div>
+                    )
+                }
             </div>
         </div>
     )
