@@ -4,7 +4,7 @@ import AppLayout from './layout/AppLayout'
 import Home from './pages/Home';
 import Category from './pages/Category';
 import Search from './pages/Search';
-import GifPage from './pages/GifPage';
+import SingleGif from './pages/SingleGif';
 import Favorites from './pages/Favorites';
 import GifProvider from './context/GifContext'
 function App() {
@@ -28,7 +28,7 @@ function App() {
         },
         {
           path: '/:type/:slug',
-          element: <GifPage />
+          element: <SingleGif />
         },
         {
           path: '/favorites',

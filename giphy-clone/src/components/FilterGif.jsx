@@ -1,5 +1,5 @@
-import { useState } from "react"
 import { HiMiniArrowTrendingUp } from "react-icons/hi2";
+import { GifState } from "../context/GifContext";
 
 const filters = [
     {
@@ -22,7 +22,7 @@ const filters = [
 
 const FilterGif = ({ alignLeft = false, showTrending = false }) => {
 
-    const [filter, setFilter] = useState();
+    const { filter, setFilter } = GifState();
     return (
         <div className={`flex my-3 gap-3 ${alignLeft ? "" : "justify-end"} ${showTrending ? "justify-between flex-col sm:flex-row sm:items-center" : ""}`} >
             {showTrending && (

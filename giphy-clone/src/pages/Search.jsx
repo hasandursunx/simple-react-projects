@@ -7,8 +7,8 @@ import Gif from "../components/Gif";
 const Search = () => {
 
     const [searchResults, setSearchResults] = useState([])
-    const { query } = useParams();
     const { gf, filter } = GifState();
+    const { query } = useParams();
 
     const fetchSearchResults = async () => {
         const { data } = await gf.search(query, {
@@ -21,7 +21,9 @@ const Search = () => {
         setSearchResults(data);
     }
 
-    useEffect(() => { fetchSearchResults(); }, [filter])
+    useEffect(() => {
+        fetchSearchResults();
+    }, [filter])
 
     return (
         <div className="my-4">

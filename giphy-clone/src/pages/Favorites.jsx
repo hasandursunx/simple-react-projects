@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { GifState } from '../context/GifContext'
+import Gif from '../components/Gif'
 
 const Favorites = () => {
     const [favoritesGIFs, setFavoritesGIFs] = useState([])

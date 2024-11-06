@@ -13,7 +13,7 @@ const GifSearch = () => {
             return
         }
 
-        navigate(`search/${query}`)
+        navigate(`/search/${query}`)
     }
     return (
         <div className='flex relative'>
