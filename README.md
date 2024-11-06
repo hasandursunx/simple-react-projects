@@ -1,7 +1,20 @@
 # Hello, I am learning react.js 
 
 I am collecting the projects I made while learning. You can find the source links of all the projects above.
+<br/>
+<br/>
 
+[23 - Form Validation ](https://www.youtube.com/watch?v=brcHK3P6ChQ&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/form-validation-gif-gif.gif" height="300">
+
+
+<br/>
+<br/>
+
+[22 - GIPHY Clone ](https://www.youtube.com/watch?v=wtC1_Ea9_wk)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/giphy-clone-gif.gif" height="300">
 
 
 <br/>
