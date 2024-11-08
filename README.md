@@ -1,6 +1,14 @@
 # Hello, I am learning react.js 
 
 I am collecting the projects I made while learning. You can find the source links of all the projects above.
+
+<br/>
+<br/>
+
+[24 - Breadcrumbs ](https://www.youtube.com/watch?v=yeNgh2gw104)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/breadcrumbs-gif-gif.gif" height="300">
+
 <br/>
 <br/>
 
