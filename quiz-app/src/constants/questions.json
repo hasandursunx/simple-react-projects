@@ -1,0 +1,212 @@
+[
+    {
+        "question": "Sinekli Bakkal” Romanının Yazarı Aşağıdakilerden Hangisidir ?",
+        "answersOptions": [
+            {
+                "text": "Reşat Nuri Güntekin",
+                "iscorrect": false
+            },
+            {
+                "text": "Halide Edip Adıvar",
+                "iscorrect": true
+            },
+            {
+                "text": "Ziya Gökalp",
+                "iscorrect": false
+            },
+            {
+                "text": "Ömer Seyfettin",
+                "iscorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Aşağıda Verilen İlk Çağ Uygarlıklarından Hangisi Yazıyı İcat Etmiştir ?",
+        "answersOptions": [
+            {
+                "text": "Hititler",
+                "iscorrect": false
+            },
+            {
+                "text": "Elamlar",
+                "iscorrect": false
+            },
+            {
+                "text": "Sümerler",
+                "iscorrect": true
+            },
+            {
+                "text": "Urartular",
+                "iscorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Tsunami Felaketinde En Fazla Zarar Gören Güney Asya Ülkesi Aşağıdakilerden Hangisidir ?",
+        "answersOptions": [
+            {
+                "text": "Endonezya",
+                "iscorrect": true
+            },
+            {
+                "text": "Srilanka",
+                "iscorrect": false
+            },
+            {
+                "text": "Tayland",
+                "iscorrect": false
+            },
+            {
+                "text": "Hindistan",
+                "iscorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Mustafa Kemal Atatürk’ün Nüfusa Kayıtlı Olduğu İl Hangisidir?",
+        "answersOptions": [
+            {
+                "text": "Gaziantep",
+                "iscorrect": true
+            },
+            {
+                "text": "İstanbul",
+                "iscorrect": false
+            },
+            {
+                "text": "Ankara",
+                "iscorrect": false
+            },
+            {
+                "text": "Bursa",
+                "iscorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Aşağıdakilerden Hangisi Dünya Sağlık Örgütünün Kısaltılmış İsmidir ?",
+        "answersOptions": [
+            {
+                "text": "Uhw",
+                "iscorrect": false
+            },
+            {
+                "text": "Unicef",
+                "iscorrect": false
+            },
+            {
+                "text": "Who",
+                "iscorrect": true
+            },
+            {
+                "text": "Nato",
+                "iscorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Romen Rakamında Hangi Sayı Yoktur ?",
+        "answersOptions": [
+            {
+                "text": "0",
+                "iscorrect": true
+            },
+            {
+                "text": "50",
+                "iscorrect": false
+            },
+            {
+                "text": "100",
+                "iscorrect": false
+            },
+            {
+                "text": "1000",
+                "iscorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Bir Gün Kaç Saniyedir?",
+        "answersOptions": [
+            {
+                "text": "86000",
+                "iscorrect": false
+            },
+            {
+                "text": "88600",
+                "iscorrect": false
+            },
+            {
+                "text": "86400",
+                "iscorrect": true
+            },
+            {
+                "text": "84800",
+                "iscorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Hangi İlimizde Demiryolu Yoktur?",
+        "answersOptions": [
+            {
+                "text": "Batman",
+                "iscorrect": false
+            },
+            {
+                "text": "Kütahya",
+                "iscorrect": false
+            },
+            {
+                "text": "Aydın",
+                "iscorrect": false
+            },
+            {
+                "text": "Muğla",
+                "iscorrect": true
+            }
+        ]
+    },
+    {
+        "question": "Hangi Ülkenin İki Tane Başkenti Vardır?",
+        "answersOptions": [
+            {
+                "text": "Güney Afrika",
+                "iscorrect": true
+            },
+            {
+                "text": "Senegal",
+                "iscorrect": false
+            },
+            {
+                "text": "El Salvador",
+                "iscorrect": false
+            },
+            {
+                "text": "Venezuela",
+                "iscorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Aşağıdaki Ülkelerden Hangisinin Nüfusu Daha Fazladır?",
+        "answersOptions": [
+            {
+                "text": "İspanya",
+                "iscorrect": false
+            },
+            {
+                "text": "Fransa",
+                "iscorrect": false
+            },
+            {
+                "text": "İngiltere",
+                "iscorrect": false
+            },
+            {
+                "text": "Almanya",
+                "iscorrect": true
+            }
+        ]
+    }
+]
