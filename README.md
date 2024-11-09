@@ -5,9 +5,16 @@ I am collecting the projects I made while learning. You can find the source link
 <br/>
 <br/>
 
-[25 - Dictionary ](https://www.youtube.com/watch?v=Nz6Q21ypzT4&list=PPSV)  
+[26 - Dictionary ](https://www.youtube.com/watch?v=Nz6Q21ypzT4&list=PPSV)  
 <br/>
 <img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/dictionary-app-gif.gif" height="300">
+
+<br/>
+<br/>
+
+[25 - Quiz App ](https://www.youtube.com/watch?v=TF1FKrzsRDM)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/quiz-app-gif.gif" height="300">
 
 
 <br/>
