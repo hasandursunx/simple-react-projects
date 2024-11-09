@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .title {
+        @apply uppercase font-montserrat font-thin md-lg:text-[7vw] text-[11vw];
+    }
+
+    .header {
+        @apply flex items-center flex-col justify-evenly h-[35vh] mb-5 w-full md-lg:h-[50vh];
+    }
+
+    .inputs {
+        @apply flex items-center justify-around w-full;
+    }
+
+    .search,
+    .select {
+        @apply w-5/12;
+    }
+
+    .meanings {
+        @apply flex h-full flex-col overflow-y-scroll scrollbar-thin border-[2px] border-gray-500 rounded-[10px] overflow-x-hidden;
+    }
+
+    .subTitle {
+        @apply mt-2 ml-4 text-[2vw] font-montserrat font-thin;
+    }
+
+    .singleMean {
+        @apply flex flex-col rounded-[10px] px-[10px] mx-[10px] my-[0px];
+    }
+
+    .line {
+        @apply w-full bg-black my-5;
+
+    }
+
+    .audio-container {
+        @apply flex items-center justify-center px-[20px];
+    }
+
+    .audio {
+        @apply w-full my-4;
+    }
+
+
+
+
+}
