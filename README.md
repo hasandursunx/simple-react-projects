@@ -5,16 +5,24 @@ I am collecting the projects I made while learning. You can find the source link
 <br/>
 <br/>
 
+[25 - Dictionary ](https://www.youtube.com/watch?v=Nz6Q21ypzT4&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/dictionary-app-gif.gif" height="300">
+
+
+<br/>
+<br/>
+
 [24 - Breadcrumbs ](https://www.youtube.com/watch?v=yeNgh2gw104)  
 <br/>
-<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/breadcrumbs-gif-gif.gif" height="300">
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/breadcrumbs-gif.gif" height="300">
 
 <br/>
 <br/>
 
 [23 - Form Validation ](https://www.youtube.com/watch?v=brcHK3P6ChQ&list=PPSV)  
 <br/>
-<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/form-validation-gif-gif.gif" height="300">
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/form-validation-gif.gif" height="300">
 
 
 <br/>
