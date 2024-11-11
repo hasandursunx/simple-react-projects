@@ -1,8 +1,10 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 function Explore() {
+
     return (
-        <div>Explore</div>
+        <div>explore</div>
     )
 }
 
