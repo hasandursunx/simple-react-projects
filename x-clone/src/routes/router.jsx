@@ -22,6 +22,30 @@ const router = createBrowserRouter([
                 path: "notifications",
                 element: <Notifications />,
             },
+            {
+                path: "messages",
+                element: 'messages',
+            },
+            {
+                path: "grok",
+                element: 'grok',
+            },
+            {
+                path: "communities",
+                element: 'communities',
+            },
+            {
+                path: "premium",
+                element: 'premium',
+            },
+            {
+                path: "profile",
+                element: 'profile',
+            },
+            {
+                path: "more",
+                element: 'more',
+            },
         ]
     },
 
