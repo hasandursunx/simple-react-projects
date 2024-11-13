@@ -8,7 +8,7 @@ const Menu = () => {
     return (
         <nav className=" mb-1">
             {mainMenu.map((menu, index) => (
-                <NavLink to={menu.path} className="py-[3px] block group" >
+                <NavLink key={index} to={menu.path} className="py-[3px] block group" >
                     {({ isActive }) => (
                         <div className={
                             classNames("p-2 rounded-full inline-flex items-center gap-5 transition-colors  group-hover:bg-[#eff3f41a]",
@@ -30,6 +30,7 @@ const Menu = () => {
             }
             <More />
             <New />
+
         </nav >
     )
 }

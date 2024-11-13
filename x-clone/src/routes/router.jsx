@@ -4,6 +4,10 @@ import Explore from '../pages/Explore'
 import Notifications from '../pages/Notifications'
 import ErrorPage from '../pages/ErrorPage'
 import MainLayout from '../layouts/main/MainLayout'
+import Profile from '../pages/Profile'
+import Messages from '../pages/Messages'
+import Bookmarks from '../pages/Bookmarks'
+import Lists from '../pages/Lists'
 const router = createBrowserRouter([
     {
         path: "/",
@@ -23,8 +27,12 @@ const router = createBrowserRouter([
                 element: <Notifications />,
             },
             {
+                path: "/:slug",
+                element: <Profile />,
+            },
+            {
                 path: "messages",
-                element: 'messages',
+                element: <Messages />,
             },
             {
                 path: "grok",
@@ -45,6 +53,14 @@ const router = createBrowserRouter([
             {
                 path: "more",
                 element: 'more',
+            },
+            {
+                path: "bookmarks",
+                element: <Bookmarks />,
+            },
+            {
+                path: "lists",
+                element: <Lists />,
             },
         ]
     },
