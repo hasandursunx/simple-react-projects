@@ -1,13 +1,26 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    currentAcount: {
+    currentAccount: {
         id: 1,
         username: 'hasanxyz',
         fullname: 'Hasan Dursun',
         avatar: 'https://pbs.twimg.com/profile_images/1855975183145684992/Z5S4SjBZ_400x400.jpg'
     },
-    accounts: []
+    accounts: [
+        {
+            id: 1,
+            username: 'hasanxyz',
+            fullname: 'Hasan Dursun',
+            avatar: 'https://pbs.twimg.com/profile_images/1855975183145684992/Z5S4SjBZ_400x400.jpg'
+        },
+        {
+            id: 2,
+            username: 'ronaldo',
+            fullname: 'Cristiano Ronaldo',
+            avatar: 'https://pbs.twimg.com/profile_images/1594446880498401282/o4L2z8Ay_400x400.jpg'
+        },
+    ]
 
 }
 
@@ -18,18 +31,18 @@ const auth = createSlice({
         _addAccount: (state, action) => {
             state.accounts.push(action.payload)
         },
-        _removeAccont: (state, action) => {
+        _removeAccount: (state, action) => {
             state.accounts = state.accounts.filter(account => account.id !== action.payload)
-            if (state.currentAcount && action.payload === state.currentAcount.id) {
-                this._setCurrentAcount(false)
+            if (state.currentAccount && action.payload === state.currentAccount.id) {
+                this.currentAccount(false)
             }
         },
-        _setCurrentAcount: (state, action) => {
-            state.currentAcount = action.payload
+        _setCurrentAccount: (state, action) => {
+            state.currentAccount = action.payload
         }
     }
 })
 
-export const { _addAccount, _removeAccont, _setCurrentAcount } = auth.actions
+export const { _addAccount, _removeAccount, _setCurrentAccount } = auth.actions
 export default auth.reducer
 

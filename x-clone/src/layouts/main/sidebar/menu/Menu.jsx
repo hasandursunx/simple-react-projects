@@ -4,11 +4,13 @@ import { mainMenu } from "../../../../utils/consts";
 import Button from "../../../../components/Button";
 import More from "./More";
 import New from "./New";
+import { useAccount } from '../../../../store/auth/hooks'
 const Menu = () => {
+    const account = useAccount()
     return (
-        <nav className=" mb-1">
+        <nav className=" mb-1" key={account}>
             {mainMenu.map((menu, index) => (
-                <NavLink key={index} to={menu.path} className="py-[3px] block group" >
+                <NavLink key={index} to={typeof menu.path === 'function' ? menu.path() : menu.path} className="py-[3px] block group" >
                     {({ isActive }) => (
                         <div className={
                             classNames("p-2 rounded-full inline-flex items-center gap-5 transition-colors  group-hover:bg-[#eff3f41a]",
