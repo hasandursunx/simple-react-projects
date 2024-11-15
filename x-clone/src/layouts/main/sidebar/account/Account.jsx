@@ -7,7 +7,7 @@ export default function Account() {
     return (
         <div className="mt-auto">
             <Popover className="relative">
-                <PopoverButton className=" items-center outline-none border-none my-3 p-3 rounded-full hover:bg-[#eff3f41a] w-full flex text-left">
+                <PopoverButton className=" items-center outline-none border-none my-3 p-3 rounded-full hover:bg-[#eff3f41a] w-full flex text-left transition-colors">
                     <img src={account.avatar} className="w-10 h-10 rounded-full" alt="test" />
                     <div className="mx-3 text-[15px]">
                         <h6 className="font-bold leading-5 "> {account.fullname}</h6>
