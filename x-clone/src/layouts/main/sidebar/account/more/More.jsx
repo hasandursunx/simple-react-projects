@@ -34,13 +34,13 @@ export default function More({ close }) {
                 </button>
             ))}
             <div className="h-px bg-[#2f3366] my-3" />
-            <button className="py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold text-[#e7e9ea] leading-5">
+            <button className="py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold  leading-5">
                 Var olan bir hesap ekle
             </button>
-            <button className="py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full  font-bold text-[#e7e9ea] leading-5">
+            <button className="py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full  font-bold leading-5">
                 Hesapları yönet
             </button>
-            <button className="py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold text-[#e7e9ea] leading-5">
+            <button className="py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full font-bold  leading-5">
                 <div className="max-w-[200px]">
                     @hasanxyz hesabından çıkış yap.
                 </div>

@@ -13,11 +13,11 @@ const Menu = () => {
                 <NavLink key={index} to={typeof menu.path === 'function' ? menu.path() : menu.path} className="py-[3px] block group" >
                     {({ isActive }) => (
                         <div className={
-                            classNames("p-2 rounded-full inline-flex items-center gap-5 transition-colors  group-hover:bg-[#eff3f41a]",
+                            classNames("p-2 rounded-full inline-flex items-center gap-5 transition-colors   group-hover:bg-[#eff3f41a]",
                                 { "font-bold": isActive })}>
                             <div className="h-[26.25] w-[26.25] relative">
                                 {menu?.notification && (
-                                    <span className="w-[18px] h-[18px] rounded-full bg-[#1d9bf0] absolute -right-1 -top-1.5 flex items-center justify-center text-[11px] ">{menu?.notification}</span>
+                                    <span className="w-[18px] h-[18px] rounded-full bg-[color:var(--color-primary)] absolute -right-1 -top-1.5 flex items-center justify-center text-[11px] ">{menu?.notification}</span>
                                 )}
                                 {isActive && menu.icon.active}
                                 {!isActive && menu.icon.passive}

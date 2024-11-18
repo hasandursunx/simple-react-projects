@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 
 export default function SidebarSection({ title, more, children }) {
     return (
-        <section className="bg-[#16181c] mb-4 overflow-hidden rounded-2xl border border-[#16181c]">
-            <h5 className="py-3 px-4  text-xl font-extrabold leading-6 h-12 flex items-center text-[#e7e9ea]">{title}</h5>
+        <section className="bg-[color:var(--background-secondary)] mb-4 rounded-2xl border border-[color:var(--background-secondary)]">
+            <h5 className="py-3 px-4  text-xl font-extrabold leading-6 h-12 flex items-center ">{title}</h5>
             <div className="grid">
                 {children}
             </div>
@@ -12,7 +12,7 @@ export default function SidebarSection({ title, more, children }) {
                 more && (
                     <Link
                         to={more}
-                        className='h-[52px]  px-4 flex items-center  text-[15px] text-[#1d9bf0] transition-colors hover:bg-white/[0.03]'
+                        className='h-[52px] rounded-b-2xl  px-4 flex items-center  text-[15px] text-[#1d9bf0] transition-colors hover:bg-white/[0.03]'
                     >
                         Daha Fazla Göster
                     </Link>
