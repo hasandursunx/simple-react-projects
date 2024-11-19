@@ -11,7 +11,7 @@ export default function Account() {
                     <img src={account.avatar} className="w-10 h-10 rounded-full" alt="test" />
                     <div className="mx-3 text-[15px]">
                         <h6 className="font-bold leading-5 "> {account.fullname}</h6>
-                        <div className="text-left">
+                        <div className="text-left text-[color:var(--color-base-secondary)]">
                             @{account.username}
                         </div>
                     </div>

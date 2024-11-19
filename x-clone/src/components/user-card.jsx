@@ -17,7 +17,7 @@ export default function UserCard({ user }) {
                     )}
                 </div>
 
-                <div className="text-[15px] text-[#71767b] ">{user.username}</div>
+                <div className="text-[15px] text-[color:var(--color-base-secondary)] ">{user.username}</div>
             </div>
             <div>
                 {following ? (
