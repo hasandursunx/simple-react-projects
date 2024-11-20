@@ -12,7 +12,7 @@ export default function SidebarSection({ title, more, children }) {
                 more && (
                     <Link
                         to={more}
-                        className='h-[52px] rounded-b-2xl  px-4 flex items-center  text-[15px] text-[#1d9bf0] transition-colors hover:bg-white/[0.03]'
+                        className='h-[52px] rounded-b-2xl  px-4 flex items-center  text-[15px] text-[color:var(--color-primary)] transition-colors hover:bg-white/[0.03]'
                     >
                         Daha Fazla Göster
                     </Link>
