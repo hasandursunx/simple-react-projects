@@ -300,3 +300,11 @@ export const colors = [
     },
 
 ]
+
+export const fontSizes = [
+    14,
+    15,
+    16,
+    18,
+    19
+]
