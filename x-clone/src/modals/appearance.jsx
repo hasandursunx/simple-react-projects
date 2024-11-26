@@ -124,6 +124,7 @@ export default function AppearanceModal({ close }) {
                                     setBackgroundColor({
                                         name: 'light',
                                         primary: '#fff',
+                                        primaryAlpha: '#ffffffa6',
                                         secondary: '#f7f9f9',
                                         third: '#eff3f4',
                                         modal: '#00000066'
@@ -159,6 +160,7 @@ export default function AppearanceModal({ close }) {
                                     setBackgroundColor({
                                         name: 'dark',
                                         primary: '#15202b',
+                                        primaryAlpha: '#15202ba6',
                                         secondary: '#1e2732',
                                         third: '#263340',
                                         modal: '#5b708366'
@@ -194,6 +196,7 @@ export default function AppearanceModal({ close }) {
                                     setBackgroundColor({
                                         name: 'darker',
                                         primary: '#000',
+                                        primaryAlpha: '#000000a6',
                                         secondary: '#16181c',
                                         third: '#273340',
                                         modal: '#5b708366'
