@@ -7,7 +7,7 @@ export const whoFollowUsers = [
     },
     {
         id: 4,
-        username: 'CMYLMZzzzzzzzzzzzzz',
+        username: 'CMYLMZ',
         fullName: 'Cem Yılmaz',
         avatar: 'https://pbs.twimg.com/profile_images/1601132691575001089/HJreENWK_x96.jpg'
     },

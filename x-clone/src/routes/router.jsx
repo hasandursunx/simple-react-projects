@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom'
-import Home from '../pages/home'
+import Home from '../pages/home/Home'
 import Explore from '../pages/Explore'
 import Notifications from '../pages/Notifications'
 import ErrorPage from '../pages/ErrorPage'

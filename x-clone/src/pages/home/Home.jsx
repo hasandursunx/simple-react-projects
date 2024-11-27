@@ -1,6 +1,6 @@
-import React from 'react'
-import StickyHeader from '../components/sticky-header'
-import Tab from '../components/tab/tab'
+import StickyHeader from '../../components/sticky-header'
+import Tab from '../../components/tab/tab'
+import ForYou from './for-you/for-you'
 const Home = () => {
     return (
         <>
@@ -18,7 +18,7 @@ const Home = () => {
                 </StickyHeader>
 
                 <Tab.Content id="for-you">
-                    1.content
+                    <ForYou />
                 </Tab.Content>
                 <Tab.Content id="followings">
                     2.content
