@@ -1,4 +1,6 @@
 import { numberFormat } from '../../utils/formats'
+import Photo from './photo/photo'
+import Poll from './poll/poll'
 
 const Post = ({ post }) => {
     return (
@@ -20,7 +22,10 @@ const Post = ({ post }) => {
                         <div>17s</div>
                     </div>
                 </header>
+
                 <div dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br/>') }} />
+                {post.type === 'photo' && (<Photo photos={post.photos} />)}
+                {post.type === 'poll' && (<Poll poll={post.poll} />)}
                 <div className='flex -ml-1.5 mt-1.5'>
                     <div className='flex-1 group flex items-center gap-px'>
                         <div className='size-[2.172rem] transition-colors flex  items-center justify-center text-[color:var(--text-base-secondary)]

@@ -2,8 +2,7 @@ export const posts = [
     {
         id: '1708632465282150796',
         type: 'poll',
-        content: `PROTOTURK'un paylaştığı videoları seviyor musunuz?
-        Bu anket ders esnasında sorulmuştur.`,
+        content: `Yazılım Dünyası'nın paylaştığı videoları seviyor musunuz?`,
         poll: {
             voted: false,
             votes: 12,
@@ -26,9 +25,9 @@ export const posts = [
             ]
         },
         account: {
-            avatar: 'https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_400x400.jpg',
-            username: 'prototurkcom',
-            fullName: './prototurk'
+            avatar: 'https://pbs.twimg.com/media/F7ZIK8KWgAAP8pH?format=jpg&name=900x900',
+            username: 'mehmettop',
+            fullName: './mehmettop'
         },
         stats: {
             comments: 43535,
@@ -42,12 +41,12 @@ export const posts = [
         type: 'photo',
         content: `Toplu günaydın, ben her sabah spora devam ama her gün post atmıyorum artık, max 4 günde bir atarım çünkü en fazla 4 foto paylaşılıyormuş 🤣`,
         photos: [
-            'https://pbs.twimg.com/media/F7VBIvaW0AIZyiX?format=jpg&name=large'
+            'https://pbs.twimg.com/media/F7bptMoXYAA7TpB?format=jpg&name=900x900'
         ],
         account: {
             avatar: 'https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_400x400.jpg',
-            username: 'tayfunerbilen',
-            fullName: 'Tayfun Erbilen'
+            username: 'yavuztop',
+            fullName: 'yavuztop'
         },
         stats: {
             comments: 43535,
@@ -62,7 +61,7 @@ export const posts = [
         content: `Imagination Land!`,
         photos: [
             'https://pbs.twimg.com/media/F7ZIK8KWgAAP8pH?format=jpg&name=900x900',
-            'https://pbs.twimg.com/media/F7VBIvZXEAAIpEM?format=jpg&name=large'
+            'https://pbs.twimg.com/media/F7bptMoXYAA7TpB?format=jpg&name=900x900'
         ],
         account: {
             avatar: 'https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_400x400.jpg',
@@ -106,7 +105,7 @@ And people have been busy executing god-like tasks.
         photos: [
             'https://pbs.twimg.com/media/F7bpqaKXkAAopDd?format=jpg&name=900x900',
             'https://pbs.twimg.com/media/F7bptMoXYAA7TpB?format=jpg&name=900x900',
-            'https://pbs.twimg.com/media/F8tfk2JWwAAlY3f?format=jpg&name=large'
+            'https://pbs.twimg.com/media/F7bpqaKXkAAopDd?format=jpg&name=900x900'
         ],
         account: {
             avatar: 'https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_400x400.jpg',
@@ -132,9 +131,9 @@ This prompt is going viral- mimicking a creepy iPhone capture that looks insanel
 Prompt in ALT tag + more examples in thread:`,
         photos: [
             'https://pbs.twimg.com/media/F7aKxHhaAAAnHlS?format=jpg&name=large',
-            'https://pbs.twimg.com/media/F7VBIvaW0AAyXEr?format=jpg&name=large',
-            'https://pbs.twimg.com/media/F7VBIvaWAAAWUsx?format=jpg&name=large',
-            'https://pbs.twimg.com/media/F7VBIvaWAAAWUsx?format=jpg&name=large',
+            'https://pbs.twimg.com/media/F7bptMoXYAA7TpB?format=jpg&name=900x900',
+            'https://pbs.twimg.com/media/F7bpqaKXkAAopDd?format=jpg&name=900x900',
+            'https://pbs.twimg.com/media/F7bptMoXYAA7TpB?format=jpg&name=900x900',
         ],
         account: {
             avatar: 'https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_400x400.jpg',
