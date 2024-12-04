@@ -5,6 +5,8 @@ import Sidebar from './components/sidebar'
 import MainContext from './MainContext'
 import BrandsData from './brands.json'
 import Copied from './components/copied'
+import { BrowserRouter, Routes, Route } from "react-router";
+import Collection from './components/collection'
 
 function App() {
 
@@ -39,11 +41,19 @@ function App() {
   useEffect(() => {
     setBrands(brandArray.filter(brand => brand.title.toLowerCase().includes(search)))
   }, [search])
+
+
   return (
     <MainContext.Provider value={data}>
       <div className='flex w-full h-screen'>
         <Sidebar />
-        <Content />
+        <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Content />} />
+            {<Route path='/collection/:slugs' element={<Collection />} />}
+          </Routes>
+
+        </BrowserRouter>
         {copied && <Copied color={copied} />}
       </div>
     </MainContext.Provider>
