@@ -1,6 +1,34 @@
 # Hello, I am learning react.js 
 
-I am collecting the projects I made while learning. You can find the source links of all the projects above.
+I am collecting the projects I made while learning. You can find the source links of all the projects above. 
+
+<br/>
+<br/>
+
+[30 - Brandcolor ](https://www.youtube.com/watch?v=tJNltOn-2Yg)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/brandcolor-app-gif.gif" height="300">
+
+<br/>
+<br/>
+
+[29 - X Clone ](https://www.youtube.com/playlist?list=PLfAfrKyDRWrHBssvebbmaCx2exhfQr8WL)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/x-clone-gif.gif" height="300">
+
+<br/>
+<br/>
+
+[28 - Email.js App ](https://www.youtube.com/watch?v=wWiTouBHibs)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/emailjs-app-gif.gif" height="300">
+
+<br/>
+<br/>
+
+[27 - Form Validation ](https://www.youtube.com/watch?v=Nz6Q21ypzT4&list=PPSV)  
+<br/>
+<img src="https://github.com/hasandursunx/simple-react-projects/blob/main/gifs/form-validation-gif.gif" height="300">
 
 <br/>
 <br/>
